@@ -12,6 +12,7 @@ import FeaturedPost from './FeaturedPost';
 // import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
+import { typography } from '@mui/system';
 // import post1 from './blog-post.1.md';
 // import post2 from './blog-post.2.md';
 // import post3 from './blog-post.3.md';
@@ -29,7 +30,8 @@ const sections = [
   { title: 'Space Travel', url: 'https://www.nasa.gov/topics/technology/space-travel/index.html' },
 ];
 
-const mainFeaturedPost = {
+const mainFeaturedPost = { 
+
   title: 'Did you know?',
   description:
     "The moon uses it's gravitational pull to control the tides!",
@@ -39,6 +41,7 @@ const mainFeaturedPost = {
 };
 
 const featuredPosts = [
+  
   {
     title: 'Space object found!?!',
     date: 'June 12',
@@ -55,11 +58,19 @@ const featuredPosts = [
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8E_StNHdj9rp2_rPWjy9wTSxS-fCr0adIvg&usqp=CAU',
     imageLabel: 'Image Text',
   },
+  {
+    title: 'First moon landing',
+    date: 'July 20, 1969',
+    description:
+      'Moon Landing!?!',
+    image: 'https://i.ytimg.com/vi/S9HdPi9Ikhk/mqdefault.jpg',
+    imageLabel: 'Image Text',
+  }
 ];
 
 // const posts = [post1, post2, post3];
 
-const sidebar = {
+const sidebar = { 
   title: 'About this website',
   description:
     'This websites is completly dedicated to space and all of the wonders it has in store for us.',
@@ -74,16 +85,9 @@ const sidebar = {
     { title: 'August 2021', url: '#' },
     { title: 'September 2021', url: '#' },
     { title: 'October 2021', url: '#' },
-    { title: 'Novembet 2021', url: '#' },
+    { title: 'November 2021', url: '#' },
     { title: 'December 2021', url: '#' },
-    <Grid
-  container
-  spacing={1}
-  direction="column"
-  alignItems="center"
-  justifyContent="center"
-  >   
-</Grid> 
+    
   ],
   
   social: [
